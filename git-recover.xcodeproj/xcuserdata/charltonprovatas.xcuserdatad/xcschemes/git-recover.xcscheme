@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E6D60C420BB11EF009F152C"
-               BuildableName = "GitRecover"
-               BlueprintName = "GitRecover"
-               ReferencedContainer = "container:GitRecover.xcodeproj">
+               BuildableName = "git-recover"
+               BlueprintName = "git-recover"
+               ReferencedContainer = "container:git-recover.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E5B983920BB95EC0054EBE5"
-               BuildableName = "GitRecoverTests.xctest"
-               BlueprintName = "GitRecoverTests"
-               ReferencedContainer = "container:GitRecover.xcodeproj">
+               BuildableName = "git-recover-tests.xctest"
+               BlueprintName = "git-recover-tests"
+               ReferencedContainer = "container:git-recover.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E6D60C420BB11EF009F152C"
-            BuildableName = "GitRecover"
-            BlueprintName = "GitRecover"
-            ReferencedContainer = "container:GitRecover.xcodeproj">
+            BuildableName = "git-recover"
+            BlueprintName = "git-recover"
+            ReferencedContainer = "container:git-recover.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E6D60C420BB11EF009F152C"
-            BuildableName = "GitRecover"
-            BlueprintName = "GitRecover"
-            ReferencedContainer = "container:GitRecover.xcodeproj">
+            BuildableName = "git-recover"
+            BlueprintName = "git-recover"
+            ReferencedContainer = "container:git-recover.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E6D60C420BB11EF009F152C"
-            BuildableName = "GitRecover"
-            BlueprintName = "GitRecover"
-            ReferencedContainer = "container:GitRecover.xcodeproj">
+            BuildableName = "git-recover"
+            BlueprintName = "git-recover"
+            ReferencedContainer = "container:git-recover.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

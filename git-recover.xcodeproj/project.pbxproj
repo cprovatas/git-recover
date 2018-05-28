@@ -38,12 +38,12 @@
 		3E5B983020BB1BFF0054EBE5 /* ArgumentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
 		3E5B983220BB1CF10054EBE5 /* String+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Error.swift"; sourceTree = "<group>"; };
 		3E5B983420BB1DE00054EBE5 /* Array+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utilities.swift"; sourceTree = "<group>"; };
-		3E5B983A20BB95EC0054EBE5 /* GitRecoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRecoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5B983A20BB95EC0054EBE5 /* git-recover-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git-recover-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5B983C20BB95ED0054EBE5 /* FileReverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReverterTests.swift; sourceTree = "<group>"; };
 		3E5B983E20BB95ED0054EBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5B984220BB969B0054EBE5 /* ArgumentParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentParserTests.swift; sourceTree = "<group>"; };
 		3E5F678620BC92F6009E5719 /* URL+TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+TestHelper.swift"; sourceTree = "<group>"; };
-		3E6D60C520BB11EF009F152C /* GitRecover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitRecover; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6D60C520BB11EF009F152C /* git-recover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "git-recover"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6D60C820BB11EF009F152C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +65,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E5B983B20BB95ED0054EBE5 /* GitRecoverTests */ = {
+		3E5B983B20BB95ED0054EBE5 /* git-recover-tests */ = {
 			isa = PBXGroup;
 			children = (
 				3E5B983C20BB95ED0054EBE5 /* FileReverterTests.swift */,
@@ -73,14 +73,14 @@
 				3E5F678620BC92F6009E5719 /* URL+TestHelper.swift */,
 				3E5B983E20BB95ED0054EBE5 /* Info.plist */,
 			);
-			path = GitRecoverTests;
+			path = "git-recover-tests";
 			sourceTree = "<group>";
 		};
 		3E6D60BC20BB11EF009F152C = {
 			isa = PBXGroup;
 			children = (
-				3E6D60C720BB11EF009F152C /* GitRecover */,
-				3E5B983B20BB95ED0054EBE5 /* GitRecoverTests */,
+				3E6D60C720BB11EF009F152C /* git-recover */,
+				3E5B983B20BB95ED0054EBE5 /* git-recover-tests */,
 				3E6D60C620BB11EF009F152C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,13 +88,13 @@
 		3E6D60C620BB11EF009F152C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E6D60C520BB11EF009F152C /* GitRecover */,
-				3E5B983A20BB95EC0054EBE5 /* GitRecoverTests.xctest */,
+				3E6D60C520BB11EF009F152C /* git-recover */,
+				3E5B983A20BB95EC0054EBE5 /* git-recover-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E6D60C720BB11EF009F152C /* GitRecover */ = {
+		3E6D60C720BB11EF009F152C /* git-recover */ = {
 			isa = PBXGroup;
 			children = (
 				3E6D60C820BB11EF009F152C /* main.swift */,
@@ -103,15 +103,15 @@
 				3E5B983420BB1DE00054EBE5 /* Array+Utilities.swift */,
 				3E5B983220BB1CF10054EBE5 /* String+Error.swift */,
 			);
-			path = GitRecover;
+			path = "git-recover";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E5B983920BB95EC0054EBE5 /* GitRecoverTests */ = {
+		3E5B983920BB95EC0054EBE5 /* git-recover-tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E5B983F20BB95ED0054EBE5 /* Build configuration list for PBXNativeTarget "GitRecoverTests" */;
+			buildConfigurationList = 3E5B983F20BB95ED0054EBE5 /* Build configuration list for PBXNativeTarget "git-recover-tests" */;
 			buildPhases = (
 				3E5B983620BB95EC0054EBE5 /* Sources */,
 				3E5B983720BB95EC0054EBE5 /* Frameworks */,
@@ -121,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = GitRecoverTests;
+			name = "git-recover-tests";
 			productName = GitRecoverTests;
-			productReference = 3E5B983A20BB95EC0054EBE5 /* GitRecoverTests.xctest */;
+			productReference = 3E5B983A20BB95EC0054EBE5 /* git-recover-tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3E6D60C420BB11EF009F152C /* GitRecover */ = {
+		3E6D60C420BB11EF009F152C /* git-recover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E6D60CC20BB11EF009F152C /* Build configuration list for PBXNativeTarget "GitRecover" */;
+			buildConfigurationList = 3E6D60CC20BB11EF009F152C /* Build configuration list for PBXNativeTarget "git-recover" */;
 			buildPhases = (
 				3E6D60C120BB11EF009F152C /* Sources */,
 				3E6D60C220BB11EF009F152C /* Frameworks */,
@@ -138,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = GitRecover;
+			name = "git-recover";
 			productName = GitRecover;
-			productReference = 3E6D60C520BB11EF009F152C /* GitRecover */;
+			productReference = 3E6D60C520BB11EF009F152C /* git-recover */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E6D60C020BB11EF009F152C /* Build configuration list for PBXProject "GitRecover" */;
+			buildConfigurationList = 3E6D60C020BB11EF009F152C /* Build configuration list for PBXProject "git-recover" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,8 +173,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E6D60C420BB11EF009F152C /* GitRecover */,
-				3E5B983920BB95EC0054EBE5 /* GitRecoverTests */,
+				3E6D60C420BB11EF009F152C /* git-recover */,
+				3E5B983920BB95EC0054EBE5 /* git-recover-tests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +225,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJQ6ARU45L;
-				INFOPLIST_FILE = GitRecoverTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/git-recover-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -243,7 +243,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJQ6ARU45L;
-				INFOPLIST_FILE = GitRecoverTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/git-recover-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -373,6 +373,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJQ6ARU45L;
+				INFOPLIST_FILE = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -383,6 +384,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJQ6ARU45L;
+				INFOPLIST_FILE = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -391,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E5B983F20BB95ED0054EBE5 /* Build configuration list for PBXNativeTarget "GitRecoverTests" */ = {
+		3E5B983F20BB95ED0054EBE5 /* Build configuration list for PBXNativeTarget "git-recover-tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E5B984020BB95ED0054EBE5 /* Debug */,
@@ -400,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E6D60C020BB11EF009F152C /* Build configuration list for PBXProject "GitRecover" */ = {
+		3E6D60C020BB11EF009F152C /* Build configuration list for PBXProject "git-recover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E6D60CA20BB11EF009F152C /* Debug */,
@@ -409,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E6D60CC20BB11EF009F152C /* Build configuration list for PBXNativeTarget "GitRecover" */ = {
+		3E6D60CC20BB11EF009F152C /* Build configuration list for PBXNativeTarget "git-recover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E6D60CD20BB11EF009F152C /* Debug */,

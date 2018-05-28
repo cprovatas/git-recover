@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E5B983920BB95EC0054EBE5"
-               BuildableName = "GitRecoverTests.xctest"
-               BlueprintName = "GitRecoverTests"
-               ReferencedContainer = "container:GitRecover.xcodeproj">
+               BuildableName = "git-recover-tests.xctest"
+               BlueprintName = "git-recover-tests"
+               ReferencedContainer = "container:git-recover.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
