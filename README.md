@@ -1,5 +1,5 @@
 # git-recover
-CLI to recover discarded changes from git on macOS
+Swift CLI to recover discarded changes from git on macOS
 
 
 # ![](http://159.203.107.53/Example.gif "Logo Title Text 1")

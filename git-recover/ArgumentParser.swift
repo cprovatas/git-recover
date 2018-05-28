@@ -40,24 +40,24 @@ final class ArgumentParser {
     static func date(fromArguments arguments: [String]) throws -> Date {
 
         guard let idxOfDateArgument = arguments.indices.first(where: { arguments[$0] == "-t" }) else {
-            throw "No time argument specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 05:05 pm'"
+            throw "No time argument specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 5:05 pm'"
         }
 
         guard let dayDateString = arguments[safe: idxOfDateArgument + 1], let years = dayDateString.components(separatedBy: "/").last, years.count == 4 else {
-            throw "Calendar date invalid.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 05:05 pm'"
+            throw "Calendar date invalid.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 5:05 pm'"
         }
 
         guard let hourDateString = arguments[safe: idxOfDateArgument + 2] else {
-            throw "Hour and minutes not specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 05:05 pm'"
+            throw "Hour and minutes not specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 5:05 pm'"
         }
 
         guard let amPmSymbolString = arguments[safe: idxOfDateArgument + 3] else {
-            throw "am/pm not specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 05:05 pm'"
+            throw "am/pm not specified.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 5:05 pm'"
         }
 
         let concatenatedDateString = "\(dayDateString) \(hourDateString) \(amPmSymbolString)"
         guard let date = formatter.date(from: concatenatedDateString) else {
-            throw "Unable to parse date.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 05:05 pm'"
+            throw "Unable to parse date.\nUSAGE: '-t \(_dateFormat)' ie: '11/15/2018 5:05 pm'"
         }
         return date
     }

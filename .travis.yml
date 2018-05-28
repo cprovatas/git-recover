@@ -1,4 +1,0 @@
-language: swift
-xcode_project: git-recover.xcodeproj # path to your xcodeproj folder
-xcode_scheme: git-recover
-osx_image: xcode9.3
